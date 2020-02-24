@@ -7,7 +7,7 @@ function setup() {
 
 function draw() {
 
-    background(140)
+    background(125)
     strokeWeight(1)
 
 
@@ -143,7 +143,7 @@ vertex(300,429)
 endShape(CLOSE)
 
 noFill()
-stroke(0)
+noStroke()
 curve(200, 100, 65, 140, 0, 100, 100, 200)
 curve(-50,30,65,140,125,320,0,10)
 curve(0,0,125,320,205,690,40,0)
